@@ -21,7 +21,7 @@ from typing import Any, Callable, List, Optional
 
 import requests
 
-from .exceptions import (
+from ._exceptions import (
     FailedRequest, FrameUUIDDismatch, InvalidAccessToken, InvalidApiKey,
     InvalidBaseApiEndpoint, InvalidSignature, InvalidWorkspaceUUID, MissingData,
     NotFoundInAuthorizedMembers

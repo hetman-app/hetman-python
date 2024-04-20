@@ -18,6 +18,17 @@ Hetman can be easily installed via pip:
 pip install hetman
 ```
 
+## Demo server
+
+You can start the demo flask server by running the following command:
+
+```bash
+cd hetman-python
+python -m demo.flask_server
+```
+
+(Don't forget to configure environment variables.)
+
 ## Usage
 
 ### Configuration
